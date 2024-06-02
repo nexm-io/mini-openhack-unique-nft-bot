@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/redis": "^4.0.11",
+    "@unique-nft/accounts": "^0.3.7",
+    "@unique-nft/sdk": "^0.7.5",
+    "@unique-nft/sr25519": "^0.0.2",
+    "dotenv": "^16.4.5",
+    "redis": "^4.6.14",
+    "telegraf": "^4.16.3"
+  }
+}
