@@ -123,7 +123,7 @@ collections.on('message', async (ctx) => {
                 const sdk = await createSdk(await KeyringProvider.fromMnemonic(await client.get(username) ?? ''));
                 const tokenId = await mintToken(sdk, collectionId, '', obj.ipfsCid, obj.name, obj.description);
                 await ctx.reply(`* Sucessfully Create Token Id ${tokenId} *
-                View this minted token at[uniquescan.io](https://uniquescan.io/opal/tokens/${collectionId}/${tokenId})`,
+                View this minted token at [uniquescan.io](https://uniquescan.io/opal/tokens/${collectionId}/${tokenId})`,
                     {
                         parse_mode: 'Markdown',
                         ...buttons,
