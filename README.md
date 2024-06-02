@@ -23,7 +23,7 @@
 
 ### Demo
 
-<video src="demo/demo.mp4" width="600" height="872" controls></video>
+[![Watch the video](http://img.youtube.com/vi/OOYgxtX2ZuY/0.jpg)](https://youtu.be/OOYgxtX2ZuY)
 
 
 ### Created & Maintained By
